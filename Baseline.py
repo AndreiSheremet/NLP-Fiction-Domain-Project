@@ -174,6 +174,18 @@ print(device)
 # Create optimizer (e.g. AdamW)
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
+# import torch_directml
+# device = torch_directml.device() 
+# model.to(device)
+
+# optimizer = torch.optim.SGD(
+#     model.parameters(), 
+#     lr=5e-5, 
+#     momentum=0.9, 
+#     nesterov=True, 
+#     weight_decay=0.01
+# )
+
 # Implement the training loop
 import torch
 model.train()
