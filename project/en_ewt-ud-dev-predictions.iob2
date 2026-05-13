@@ -76,8 +76,8 @@
 10	all	O	-	-
 11	across	O	-	-
 12	the	O	-	-
-13	North	O	-	stephen
-14	American	O	-	stephen
+13	North	B-LOC	-	stephen
+14	American	I-LOC	-	stephen
 15	region	O	-	-
 16	.	O	-	-
 
@@ -187,15 +187,15 @@
 4	Miramar	B-ORG	-	stephen
 5	I	O	-	-
 6	say	O	-	-
-7	Piramar	B-ORG	-	-
+7	Piramar	B-PER	-	-
 
 # sent_id = answers-20070723111604AAzUvhb_ans-0004
 # text = MIRAMAR
-1	MIRAMAR	B-ORG	-	stephen
+1	MIRAMAR	B-PER	-	stephen
 
 # sent_id = answers-20070723111604AAzUvhb_ans-0005
 # text = PIRAMAR
-1	PIRAMAR	B-ORG	-	-
+1	PIRAMAR	B-LOC	-	-
 
 # sent_id = answers-20070723111604AAzUvhb_ans-0006
 # text = Let s call the whole thing off.
@@ -247,7 +247,7 @@
 # text = i think Miramar was a famous goat trainer or something.
 1	i	O	-	-
 2	think	O	-	-
-3	Miramar	B-ORG	-	stephen
+3	Miramar	B-PER	-	stephen
 4	was	O	-	-
 5	a	O	-	-
 6	famous	O	-	-
@@ -652,7 +652,7 @@
 
 # sent_id = answers-20090625143116AAhML1y_ans-0004
 # text = McDonal s the best for me
-1	McDonal	O	-	stephen
+1	McDonal	B-LOC	-	stephen
 2	s	O	-	stephen
 3	the	O	-	-
 4	best	O	-	-
@@ -669,8 +669,8 @@
 6	most	O	-	-
 7	would	O	-	-
 8	be	O	-	-
-9	wendy	B-ORG	-	stephen
-10	's	I-LOC	-	stephen
+9	wendy	O	-	stephen
+10	's	O	-	stephen
 11	.	O	-	-
 
 # newdoc id = answers-20090705172848AAU56mj_ans
@@ -756,7 +756,7 @@
 3	of	O	-	-
 4	course	O	-	-
 5	,	O	-	-
-6	LMAO	B-ORG	-	-
+6	LMAO	O	-	-
 7	.	O	-	-
 
 # sent_id = answers-20090717131608AAqDfYJ_ans-0003
@@ -900,7 +900,7 @@
 14	large	O	-	-
 15	Air	B-LOC	-	stephen
 16	Force	I-LOC	-	stephen
-17	Base	I-LOC	-	stephen
+17	Base	O	-	stephen
 18	...	O	-	-
 
 # sent_id = answers-20090717131757AAVh6rG_ans-0007
@@ -984,7 +984,7 @@
 9	in	O	-	-
 10	malaysia	B-LOC	-	stephen
 11	,	O	-	-
-12	german	O	-	-
+12	german	B-LOC	-	-
 13	citizen	O	-	-
 14	,	O	-	-
 15	21	O	-	-
@@ -997,7 +997,7 @@
 22	wondering	O	-	-
 23	if	O	-	-
 24	air	B-ORG	-	stephen
-25	asia	O	-	stephen
+25	asia	I-ORG	-	stephen
 26	recruits	O	-	-
 27	foreigners	O	-	-
 28	?	O	-	-
@@ -1306,8 +1306,8 @@
 6	for	O	-	-
 7	females	O	-	-
 8	at	O	-	-
-9	Del	B-ORG	-	stephen
-10	Frisco	I-ORG	-	stephen
+9	Del	B-LOC	-	stephen
+10	Frisco	I-LOC	-	stephen
 11	's	O	-	stephen
 12	Philadelphia	B-LOC	-	stephen
 13	?	O	-	-
@@ -1390,8 +1390,8 @@
 6	for	O	-	-
 7	males	O	-	-
 8	at	O	-	-
-9	Del	B-ORG	-	stephen
-10	Frisco	I-ORG	-	stephen
+9	Del	B-LOC	-	stephen
+10	Frisco	I-LOC	-	stephen
 11	's	O	-	stephen
 12	Philadelphia	B-LOC	-	stephen
 13	?	O	-	-
@@ -1586,7 +1586,7 @@
 4	in	O	-	-
 5	San	B-LOC	-	stephen
 6	Rafael	I-LOC	-	stephen
-7	Ca	O	-	stephen
+7	Ca	I-LOC	-	stephen
 8	?	O	-	-
 
 # sent_id = answers-20111105140228AANN2ZV_ans-0002
@@ -1598,7 +1598,7 @@
 5	in	O	-	-
 6	San	B-LOC	-	stephen
 7	Rafael	I-LOC	-	stephen
-8	Ca	O	-	stephen
+8	Ca	I-LOC	-	stephen
 9	like	O	-	-
 10	by	O	-	-
 11	the	O	-	-
@@ -1748,7 +1748,7 @@
 9	of	O	-	-
 10	the	O	-	-
 11	Third	B-ORG	-	stephen
-12	Reich	O	-	stephen
+12	Reich	I-LOC	-	stephen
 13	in	O	-	-
 14	modern	O	-	-
 15	day	O	-	-
@@ -1887,8 +1887,8 @@
 # sent_id = answers-20111106210027AAhMxfE_ans-0002
 # text = Can ssome oone please tell me where i can buy some weed in auckland.
 1	Can	O	-	-
-2	ssome	O	-	-
-3	oone	O	-	-
+2	ssome	B-ORG	-	-
+3	oone	I-LOC	-	-
 4	please	O	-	-
 5	tell	O	-	-
 6	me	O	-	-
@@ -2145,7 +2145,7 @@
 12	was	O	-	-
 13	wondering	O	-	-
 14	if	O	-	-
-15	somone	B-PER	-	-
+15	somone	O	-	-
 16	could	O	-	-
 17	tell	O	-	-
 18	me	O	-	-
@@ -2154,7 +2154,7 @@
 21	great	O	-	-
 22	restaurant	O	-	-
 23	in	O	-	-
-24	sf	O	-	stephen
+24	sf	B-LOC	-	stephen
 25	or	O	-	-
 26	other	O	-	-
 27	nearby	O	-	-
@@ -2165,7 +2165,7 @@
 1	I	O	-	-
 2	like	O	-	-
 3	Hayes	B-ORG	-	stephen
-4	Street	I-ORG	-	stephen
+4	Street	I-LOC	-	stephen
 5	Grill	I-ORG	-	stephen
 6	....	O	-	-
 7	another	O	-	-
@@ -2221,7 +2221,7 @@
 # text = how are vietnam and Afghanistan alike?
 1	how	O	-	-
 2	are	O	-	-
-3	vietnam	B-ORG	-	stephen
+3	vietnam	B-LOC	-	stephen
 4	and	O	-	-
 5	Afghanistan	B-LOC	-	stephen
 6	alike	O	-	-
@@ -2244,7 +2244,7 @@
 7	how	O	-	-
 8	afghanistan	O	-	stephen
 9	and	O	-	-
-10	Vietam	O	-	stephen
+10	Vietam	B-ORG	-	stephen
 11	are	O	-	-
 12	different	O	-	-
 13	and	O	-	-
@@ -2357,7 +2357,7 @@
 # text = WILL SOMEONE PLZ HELP ME IT 'S DUE WENSDAY!?!?! :(
 1	WILL	O	-	-
 2	SOMEONE	O	-	-
-3	PLZ	O	-	-
+3	PLZ	B-PER	-	-
 4	HELP	O	-	-
 5	ME	O	-	-
 6	IT	O	-	-
@@ -2585,7 +2585,7 @@
 10	located	O	-	-
 11	next	O	-	-
 12	to	O	-	-
-13	BARTrail	B-ORG	-	-
+13	BARTrail	B-LOC	-	-
 14	.	O	-	-
 
 # sent_id = answers-20111107155302AAXXuM1_ans-0004
@@ -2746,7 +2746,7 @@
 13	the	O	-	-
 14	Chicago	B-ORG	-	stephen
 15	Symphony	I-ORG	-	stephen
-16	Orchestra	O	-	stephen
+16	Orchestra	I-ORG	-	stephen
 17	.	O	-	-
 
 # sent_id = answers-20111107173110AA0lVuB_ans-0003
@@ -2789,7 +2789,7 @@
 22	(	O	-	-
 23	220	O	-	-
 24	South	O	-	-
-25	Michigan	O	-	-
+25	Michigan	I-LOC	-	-
 26	Ave	O	-	-
 27	.	O	-	-
 28	)	O	-	-
@@ -2986,7 +2986,7 @@
 4	show	O	-	-
 5	it	O	-	-
 6	on	O	-	-
-7	RTE	B-ORG	-	-
+7	RTE	O	-	-
 8	Player	O	-	-
 
 # sent_id = answers-20111107180248AAnQ3aE_ans-0004
@@ -3026,7 +3026,7 @@
 
 # sent_id = answers-20111107180248AAnQ3aE_ans-0005
 # text = Deco is still with Caoimhe.
-1	Deco	B-PER	-	stephen
+1	Deco	O	-	stephen
 2	is	O	-	-
 3	still	O	-	-
 4	with	O	-	-
@@ -3275,7 +3275,7 @@
 16	back	O	-	-
 17	to	O	-	-
 18	the	O	-	stephen
-19	states	O	-	stephen
+19	states	B-LOC	-	stephen
 20	.	O	-	-
 
 # sent_id = answers-20111107203006AA9ojw8_ans-0003
@@ -3540,8 +3540,8 @@
 # sent_id = answers-20111108024148AAO8oFI_ans-0001
 # text = is gare montparnasse storage still available?
 1	is	O	-	-
-2	gare	O	-	stephen
-3	montparnasse	B-LOC	-	stephen
+2	gare	B-LOC	-	stephen
+3	montparnasse	I-LOC	-	stephen
 4	storage	O	-	-
 5	still	O	-	-
 6	available	O	-	-
@@ -3857,7 +3857,7 @@
 5	a	O	-	-
 6	woman	O	-	-
 7	in	O	-	-
-8	french	O	-	-
+8	french	B-LOC	-	-
 9	culture	O	-	-
 10	to	O	-	-
 11	make	O	-	-
@@ -4074,7 +4074,7 @@
 8	migratory	O	-	-
 9	birds	O	-	-
 10	in	O	-	-
-11	punjab	O	-	stephen
+11	punjab	B-LOC	-	stephen
 12	?	O	-	-
 
 # sent_id = answers-20111108075111AAmNees_ans-0002
@@ -4100,7 +4100,7 @@
 19	migratory	O	-	-
 20	birds	O	-	-
 21	in	O	-	-
-22	punjab	O	-	stephen
+22	punjab	B-LOC	-	stephen
 
 # sent_id = answers-20111108075111AAmNees_ans-0003
 # text = I do n't know about birding in that part of the world but you might possibly find help at this site: http://www.wildlifeofpakistan.com/PakistanBirdClub/index.html
@@ -4584,8 +4584,8 @@
 3	a	O	-	-
 4	phone	O	-	-
 5	to	O	-	-
-6	Mobile	B-ORG	-	-
-7	Phone	I-ORG	-	-
+6	Mobile	O	-	-
+7	Phone	O	-	-
 8	Exchange	O	-	-
 9	and	O	-	-
 10	it	O	-	-
@@ -4806,8 +4806,8 @@
 2	is	O	-	-
 3	the	O	-	-
 4	nearest	O	-	-
-5	National	O	-	-
-6	Park	O	-	-
+5	National	B-LOC	-	-
+6	Park	I-LOC	-	-
 7	to	O	-	-
 8	Birmingham	B-LOC	-	stephen
 9	,	O	-	-
@@ -4869,7 +4869,7 @@
 7	transport	O	-	-
 8	available	O	-	-
 9	between	O	-	-
-10	noida	O	-	stephen
+10	noida	B-LOC	-	stephen
 11	and	O	-	-
 12	greater	O	-	stephen
 13	noida	O	-	stephen
@@ -5005,7 +5005,7 @@
 3	find	O	-	-
 4	them	O	-	-
 5	From	O	-	-
-6	Indian	B-LOC	-	stephen
+6	Indian	B-ORG	-	stephen
 7	Oil	I-LOC	-	stephen
 8	Building	I-LOC	-	stephen
 9	,	O	-	-
@@ -5014,7 +5014,7 @@
 12	37	I-LOC	-	-
 13	,	O	-	-
 14	Taj	B-LOC	-	-
-15	Express	I-LOC	-	-
+15	Express	O	-	-
 16	Road	O	-	-
 17	(	O	-	-
 18	Bus	O	-	-
@@ -5766,7 +5766,7 @@
 # text = Privacy in kerala,help pls..?
 1	Privacy	O	-	-
 2	in	O	-	-
-3	kerala	O	-	stephen
+3	kerala	B-LOC	-	stephen
 4	,	O	-	-
 5	help	O	-	-
 6	pls	O	-	-
@@ -5795,7 +5795,7 @@
 19	places	O	-	-
 20	in	O	-	-
 21	kerala	B-LOC	-	stephen
-22	shal	O	-	-
+22	shal	I-LOC	-	-
 23	i	O	-	-
 24	expect	O	-	-
 25	ambience	O	-	-
@@ -5833,7 +5833,7 @@
 18	da	O	-	-
 19	syd	O	-	-
 20	f	O	-	-
-21	Ashtamudi	O	-	stephen
+21	Ashtamudi	B-LOC	-	stephen
 22	Lake	I-LOC	-	stephen
 23	in	O	-	-
 24	kollam	B-LOC	-	stephen
@@ -5884,7 +5884,7 @@
 9	is	O	-	-
 10	frequented	O	-	-
 11	by	O	-	-
-12	Firangs	O	-	-
+12	Firangs	B-ORG	-	-
 13	.	O	-	-
 
 # newdoc id = answers-20111108105022AA0Q5wb_ans
@@ -6132,7 +6132,7 @@
 3	s	O	-	-
 4	name	O	-	-
 5	is	O	-	-
-6	Twinky	B-PER	-	-
+6	Twinky	O	-	-
 7	.	O	-	-
 
 # sent_id = answers-20111108105146AAtiEx7_ans-0004
@@ -6180,7 +6180,7 @@
 4	siamese	O	-	-
 5	lynx	O	-	-
 6	name	O	-	-
-7	Star	O	-	-
+7	Star	B-PER	-	-
 8	we	O	-	-
 9	called	O	-	-
 10	her	O	-	-
@@ -6286,7 +6286,7 @@
 4	meet	O	-	-
 5	girls	O	-	-
 6	from	O	-	-
-7	san	O	-	stephen
+7	san	B-LOC	-	stephen
 8	francisco	I-LOC	-	stephen
 9	i	O	-	-
 10	am	O	-	-
@@ -6302,9 +6302,9 @@
 4	mexico	B-LOC	-	stephen
 5	traveling	O	-	-
 6	to	O	-	-
-7	san	O	-	stephen
-8	francisco	O	-	stephen
-9	california	O	-	stephen
+7	san	B-LOC	-	stephen
+8	francisco	I-LOC	-	stephen
+9	california	I-LOC	-	stephen
 10	one	O	-	-
 11	week	O	-	-
 12	i	O	-	-
@@ -6456,7 +6456,7 @@
 15	about	O	-	-
 16	is	O	-	-
 17	the	O	-	-
-18	Eurostar	O	-	-
+18	Eurostar	B-ORG	-	-
 19	located	O	-	-
 
 # sent_id = answers-20111108111203AA6gfnr_ans-0003
@@ -6501,7 +6501,7 @@
 4	London	B-LOC	-	stephen
 5	St	I-LOC	-	stephen
 6	Pancras	I-LOC	-	stephen
-7	station	O	-	stephen
+7	station	I-LOC	-	stephen
 8	.	O	-	-
 
 # newdoc id = email-enronsent00_02
@@ -7197,7 +7197,7 @@
 6	on	O	-	-
 7	10300	O	-	-
 8	Heritage	O	-	-
-9	Office	O	-	-
+9	Office	I-LOC	-	-
 10	Building	O	-	-
 11	with	O	-	-
 12	the	O	-	-
@@ -7225,15 +7225,15 @@
 15	that	O	-	-
 16	the	O	-	-
 17	kestrel	B-LOC	-	-
-18	air	O	-	-
-19	park	O	-	-
+18	air	I-LOC	-	-
+19	park	I-LOC	-	-
 20	building	O	-	-
 21	and	O	-	-
 22	the	O	-	-
 23	strip	O	-	-
 24	center	O	-	-
 25	at	O	-	-
-26	fm78	O	-	-
+26	fm78	B-LOC	-	-
 27	&	O	-	-
 28	walzem	B-LOC	-	-
 29	had	O	-	-
@@ -7336,7 +7336,7 @@
 
 # sent_id = email-enronsent00_02-0058
 # text = Mery,
-1	Mery	B-PER	-	stephen
+1	Mery	B-LOC	-	stephen
 2	,	O	-	-
 
 # sent_id = email-enronsent00_02-0059
@@ -7564,7 +7564,7 @@
 24	-	O	-	-
 25	Associate	O	-	-
 26	,	O	-	-
-27	Milson	B-PER	-	stephen
+27	Milson	B-ORG	-	stephen
 28	Mundim	I-PER	-	stephen
 29	-	O	-	-
 30	Associate	O	-	-
@@ -7596,7 +7596,7 @@
 4	HELP	O	-	-
 5	MILLIONS	O	-	-
 6	FOR	O	-	-
-7	UNITED	I-ORG	-	stephen
+7	UNITED	B-ORG	-	stephen
 8	WAY	O	-	stephen
 9	?	O	-	-
 
@@ -7637,7 +7637,7 @@
 4	the	O	-	-
 5	following	O	-	-
 6	United	O	-	stephen
-7	Way	I-ORG	-	stephen
+7	Way	O	-	stephen
 8	link	O	-	-
 9	,	O	-	-
 10	http://unitedway.enron.com	O	-	-
@@ -7672,7 +7672,7 @@
 9	's	O	-	-
 10	United	B-ORG	-	stephen
 11	Way	I-ORG	-	stephen
-12	2000	I-ORG	-	-
+12	2000	O	-	-
 13	Campaign	O	-	-
 14	site	O	-	-
 15	.	O	-	-
@@ -7801,7 +7801,7 @@
 6	be	O	-	-
 7	fine	O	-	-
 8	,	O	-	-
-9	hector	B-PER	-	stephen
+9	hector	O	-	stephen
 10	was	O	-	-
 11	just	O	-	-
 12	blowing	O	-	-
@@ -8757,7 +8757,7 @@
 # text = How about skidoo skis for the front and tracks for the back..
 1	How	O	-	-
 2	about	O	-	-
-3	skidoo	O	-	-
+3	skidoo	B-ORG	-	-
 4	skis	O	-	-
 5	for	O	-	-
 6	the	O	-	-
@@ -8852,7 +8852,7 @@
 2	mane	O	-	-
 3	is	O	-	-
 4	Visit	O	-	stephen
-5	Phunnarungsi	B-LOC	-	stephen
+5	Phunnarungsi	I-LOC	-	stephen
 6	.	O	-	-
 
 # sent_id = email-enronsent19_02-0007
@@ -9106,7 +9106,7 @@
 
 # sent_id = email-enronsent19_02-0022
 # text = Plz contact Shirley Crenshaw (X 3-5290) regarding a copy of an article.
-1	Plz	O	-	-
+1	Plz	B-PER	-	-
 2	contact	O	-	-
 3	Shirley	B-PER	-	stephen
 4	Crenshaw	I-PER	-	stephen
@@ -9624,7 +9624,7 @@
 3	<<	O	-	-
 4	File	O	-	-
 5	:	O	-	-
-6	Lisa_resume.doc	B-PER	-	-
+6	Lisa_resume.doc	O	-	-
 7	>>	O	-	-
 
 # sent_id = email-enronsent19_02-0061
@@ -9637,8 +9637,8 @@
 
 # sent_id = email-enronsent19_02-0063
 # text = P.S. Tom, Please, contact Vernon and get the details.
-1	P.S.	O	-	-
-2	Tom	B-PER	-	stephen
+1	P.S.	B-PER	-	-
+2	Tom	I-PER	-	stephen
 3	,	O	-	-
 4	Please	O	-	-
 5	,	O	-	-
@@ -9716,7 +9716,7 @@
 27	SVP	O	-	-
 28	in	O	-	-
 29	the	O	-	-
-30	LNG	O	-	-
+30	LNG	B-ORG	-	-
 31	development	O	-	-
 32	group	O	-	-
 33	at	O	-	-
@@ -9798,8 +9798,8 @@
 12	years	O	-	-
 13	at	O	-	-
 14	Enron	B-ORG	-	stephen
-15	/	O	-	-
-16	Azurix	B-ORG	-	stephen
+15	/	I-ORG	-	-
+16	Azurix	I-ORG	-	stephen
 17	,	O	-	-
 18	and	O	-	-
 19	I	O	-	-
@@ -9941,8 +9941,8 @@
 
 # sent_id = email-enronsent20_02-0019
 # text = Traci Warner Enron Broadband Services, Inc. Phone (713) 853-3242 Cell (713) 705-7201
-1	Traci	B-PER	-	-
-2	Warner	I-PER	-	-
+1	Traci	B-ORG	-	-
+2	Warner	I-ORG	-	-
 3	Enron	B-ORG	-	stephen
 4	Broadband	I-ORG	-	stephen
 5	Services	I-ORG	-	stephen
@@ -9999,7 +9999,7 @@
 # text = max and jen are looking for you.
 1	max	O	-	stephen
 2	and	O	-	-
-3	jen	O	-	stephen
+3	jen	B-PER	-	stephen
 4	are	O	-	-
 5	looking	O	-	-
 6	for	O	-	-
@@ -10099,7 +10099,7 @@
 6	butt	O	-	-
 7	-	O	-	-
 8	fucking	O	-	-
-9	mississippi	O	-	stephen
+9	mississippi	B-LOC	-	stephen
 10	.	O	-	-
 
 # sent_id = email-enronsent23_11-0002
@@ -10353,8 +10353,8 @@
 1	I	O	-	-
 2	was	O	-	-
 3	thinking	O	-	-
-4	Kenneally	B-LOC	-	stephen
-5	's	I-LOC	-	stephen
+4	Kenneally	B-ORG	-	stephen
+5	's	I-ORG	-	stephen
 6	at	O	-	-
 7	around	O	-	-
 8	5	O	-	-
@@ -10388,7 +10388,7 @@
 
 # sent_id = email-enronsent23_13-0009
 # text = india?
-1	india	O	-	stephen
+1	india	B-LOC	-	stephen
 2	?	O	-	-
 
 # sent_id = email-enronsent23_13-0010
@@ -10497,8 +10497,8 @@
 6	the	O	-	-
 7	game	O	-	-
 8	at	O	-	-
-9	woodrow	O	-	stephen
-10	s	O	-	stephen
+9	woodrow	B-LOC	-	stephen
+10	s	I-LOC	-	stephen
 11	tomorrow	O	-	-
 12	?	O	-	-
 
@@ -10912,7 +10912,7 @@
 2	please	O	-	-
 3	find	O	-	-
 4	the	O	-	-
-5	GE	B-ORG	-	-
+5	GE	O	-	-
 6	Guarantee	O	-	-
 7	in	O	-	-
 8	Word	O	-	-
@@ -11304,7 +11304,7 @@
 20	behalf	O	-	-
 21	of	O	-	-
 22	Carr	B-ORG	-	stephen
-23	Futures	O	-	stephen
+23	Futures	I-ORG	-	stephen
 24	or	O	-	-
 25	its	O	-	-
 26	officers	O	-	-
@@ -11320,8 +11320,8 @@
 # sent_id = email-enronsent28_02-0023
 # text = 2000 Carr Futures
 1	2000	O	-	-
-2	Carr	O	-	stephen
-3	Futures	O	-	stephen
+2	Carr	B-ORG	-	stephen
+3	Futures	I-ORG	-	stephen
 
 # sent_id = email-enronsent28_02-0024
 # text = The charts are now in the most recent version of Adobe Acrobat 4.0 and they should print clearly from Adobe Acrobat Reader 3.0 or higher.
@@ -11346,7 +11346,7 @@
 19	from	O	-	-
 20	Adobe	B-ORG	-	-
 21	Acrobat	I-ORG	-	-
-22	Reader	I-ORG	-	-
+22	Reader	O	-	-
 23	3.0	O	-	-
 24	or	O	-	-
 25	higher	O	-	-
@@ -11354,8 +11354,8 @@
 
 # sent_id = email-enronsent28_02-0025
 # text = Adobe Acrobat Reader 4.0 may be downloaded for FREE from www.adobe.com.
-1	Adobe	B-ORG	-	-
-2	Acrobat	I-ORG	-	-
+1	Adobe	O	-	-
+2	Acrobat	O	-	-
 3	Reader	O	-	-
 4	4.0	O	-	-
 5	may	O	-	-
@@ -11519,7 +11519,7 @@
 9	CCNG	B-ORG	-	stephen
 10	,	I-ORG	-	stephen
 11	Inc.	I-ORG	-	stephen
-12	.	O	-	-
+12	.	I-ORG	-	-
 
 # sent_id = email-enronsent28_03-0006
 # text = On or about October 6, 1999, Kelly Cloud, Senior Vice President of CCNG, Inc. (713) 235-1972, called and informed me that the counterparty should be CCGM, L.P..
@@ -11783,7 +11783,7 @@
 
 # sent_id = email-enronsent28_03-0022
 # text = Puto,
-1	Puto	B-PER	-	-
+1	Puto	O	-	-
 2	,	O	-	-
 
 # sent_id = email-enronsent28_03-0023
@@ -11923,7 +11923,7 @@
 
 # sent_id = email-enronsent28_03-0036
 # text = GT
-1	GT	B-ORG	-	stephen
+1	GT	O	-	stephen
 
 # sent_id = email-enronsent28_03-0037
 # text = How is it going?
@@ -11970,7 +11970,7 @@
 # text = "McGilloway, Vangie" <Vangie.McGilloway@powersrc.com>
 1	"	O	-	-
 2	McGilloway	B-PER	-	stephen
-3	,	I-PER	-	stephen
+3	,	O	-	stephen
 4	Vangie	B-PER	-	stephen
 5	"	O	-	-
 6	<	O	-	-
@@ -12055,13 +12055,13 @@
 18	of	O	-	-
 19	Enron	B-ORG	-	stephen
 20	On	O	-	-
-21	-	I-ORG	-	-
+21	-	O	-	-
 22	Line	O	-	-
 23	was	O	-	-
 24	cut	O	-	-
 25	off	O	-	-
 26	to	O	-	-
-27	CPS	B-ORG	-	-
+27	CPS	O	-	-
 28	---	O	-	-
 29	do	O	-	-
 30	you	O	-	-
@@ -12113,8 +12113,8 @@
 # text = Vangie McGilloway Constellation Power Source, Inc. ("CPS") 111 Market Place Ste 500 Baltimore,MD 21202 Phone 410-468-3798 Fax 410-468-3499 Email vangie.mcgilloway@powersrc.com
 1	Vangie	B-PER	-	stephen
 2	McGilloway	I-PER	-	stephen
-3	Constellation	B-ORG	-	-
-4	Power	I-ORG	-	-
+3	Constellation	I-ORG	-	-
+4	Power	O	-	-
 5	Source	I-ORG	-	-
 6	,	I-ORG	-	-
 7	Inc.	I-ORG	-	-
@@ -12389,8 +12389,8 @@
 12	w	O	-	-
 13	/	O	-	-
 14	City	B-ORG	-	-
-15	of	O	-	-
-16	Springfield	I-ORG	-	stephen
+15	of	I-ORG	-	-
+16	Springfield	I-LOC	-	stephen
 17	.	O	-	-
 
 # sent_id = email-enronsent29_01-0033
@@ -12671,7 +12671,7 @@
 7	GISB	O	-	-
 8	draft	O	-	-
 9	for	O	-	-
-10	Pioneer	B-ORG	-	-
+10	Pioneer	O	-	-
 11	.	O	-	-
 
 # sent_id = email-enronsent29_01-0067
@@ -12808,7 +12808,7 @@
 
 # sent_id = email-enronsent29_01-0081
 # text = Rudwell 53596.
-1	Rudwell	B-LOC	-	stephen
+1	Rudwell	B-PER	-	stephen
 2	53596	O	-	-
 3	.	O	-	-
 
@@ -13399,7 +13399,7 @@
 24	the	O	-	-
 25	Hyatt	B-LOC	-	stephen
 26	Regency	I-LOC	-	stephen
-27	Houston	B-LOC	-	stephen
+27	Houston	I-LOC	-	stephen
 28	,	O	-	-
 29	Imperial	B-LOC	-	-
 30	Ballroom	I-LOC	-	-
@@ -13425,7 +13425,7 @@
 16	,	O	-	-
 17	Portland	B-LOC	-	stephen
 18	(	O	-	-
-19	ENA	O	-	-
+19	ENA	B-LOC	-	-
 20	)	O	-	-
 21	or	O	-	-
 22	Houston	B-LOC	-	stephen
@@ -13662,7 +13662,7 @@
 # sent_id = newsgroup-groups.google.com_AlaskaTheLastFrontier_4709a6627e811b2a_ENG_20050530_201400-0001
 # text = Dan I for one was very happy to hear about your quitting smoking.
 1	Dan	B-PER	-	stephen
-2	I	O	-	-
+2	I	I-PER	-	-
 3	for	O	-	-
 4	one	O	-	-
 5	was	O	-	-
@@ -13783,7 +13783,7 @@
 14	this	O	-	-
 15	group	O	-	-
 16	to	O	-	-
-17	Yahoo	O	-	-
+17	Yahoo	B-ORG	-	-
 18	,	O	-	-
 19	so	O	-	-
 20	that	O	-	-
@@ -14113,7 +14113,7 @@
 11	Lone	I-PER	-	stephen
 12	,	O	-	-
 13	a	O	-	-
-14	LeT	O	-	-
+14	LeT	B-ORG	-	-
 15	man	O	-	-
 16	,	O	-	-
 17	from	O	-	-
@@ -14175,9 +14175,9 @@
 # text = Currently, Mercury and Venus is conjunct and the conjunction is being closely aspected by Rahu.
 1	Currently	O	-	-
 2	,	O	-	-
-3	Mercury	O	-	-
+3	Mercury	B-LOC	-	-
 4	and	O	-	-
-5	Venus	O	-	-
+5	Venus	B-LOC	-	-
 6	is	O	-	-
 7	conjunct	O	-	-
 8	and	O	-	-
@@ -14210,9 +14210,9 @@
 15	house	O	-	-
 16	by	O	-	-
 17	FMs	O	-	-
-18	Rahu	B-PER	-	-
+18	Rahu	O	-	-
 19	and	O	-	-
-20	Mercury	O	-	-
+20	Mercury	B-LOC	-	-
 21	,	O	-	-
 22	natal	O	-	-
 23	Saturn	B-LOC	-	-
@@ -14264,16 +14264,16 @@
 8	affliction	O	-	-
 9	to	O	-	-
 10	transit	O	-	-
-11	Mercury	O	-	-
+11	Mercury	B-LOC	-	-
 12	by	O	-	-
 13	Rahu	O	-	-
 14	and	O	-	-
-15	Venus	O	-	-
+15	Venus	B-LOC	-	-
 16	the	O	-	-
 17	natal	O	-	-
-18	Saturn	O	-	-
+18	Saturn	B-LOC	-	-
 19	and	O	-	-
-20	Venus	O	-	-
+20	Venus	B-LOC	-	-
 21	are	O	-	-
 22	also	O	-	-
 23	under	O	-	-
@@ -14281,7 +14281,7 @@
 25	transit	O	-	-
 26	affliction	O	-	-
 27	of	O	-	-
-28	Rahu	O	-	-
+28	Rahu	B-PER	-	-
 29	which	O	-	-
 30	has	O	-	-
 31	resulted	O	-	-
@@ -14307,7 +14307,7 @@
 # sent_id = newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0007
 # text = V K Choudhry
 1	V	B-PER	-	stephen
-2	K	B-PER	-	stephen
+2	K	I-PER	-	stephen
 3	Choudhry	I-PER	-	stephen
 
 # newdoc id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100
@@ -14315,8 +14315,8 @@
 # text = The Greater New Orleans Fair Housing Action Center (GNOFHAC) filed a housing discrimination complaint against the Housing Authority of New Orleans (HANO) last week.
 1	The	O	-	-
 2	Greater	B-ORG	-	stephen
-3	New	I-ORG	-	stephen
-4	Orleans	I-ORG	-	stephen
+3	New	B-LOC	-	stephen
+4	Orleans	I-LOC	-	stephen
 5	Fair	I-ORG	-	stephen
 6	Housing	I-ORG	-	stephen
 7	Action	I-ORG	-	stephen
@@ -14334,8 +14334,8 @@
 19	Housing	B-ORG	-	stephen
 20	Authority	I-ORG	-	stephen
 21	of	I-ORG	-	stephen
-22	New	B-LOC	-	stephen
-23	Orleans	I-LOC	-	stephen
+22	New	I-ORG	-	stephen
+23	Orleans	I-ORG	-	stephen
 24	(	O	-	-
 25	HANO	B-ORG	-	stephen
 26	)	O	-	-
@@ -14361,7 +14361,7 @@
 14	Development	I-ORG	-	stephen
 15	,	O	-	-
 16	accuses	O	-	-
-17	HANO	B-ORG	-	stephen
+17	HANO	B-PER	-	stephen
 18	of	O	-	-
 19	violating	O	-	-
 20	a	O	-	-
@@ -14389,7 +14389,7 @@
 42	and	O	-	-
 43	the	O	-	-
 44	U.S.	B-ORG	-	stephen
-45	Department	B-ORG	-	stephen
+45	Department	I-ORG	-	stephen
 46	of	I-ORG	-	stephen
 47	Housing	I-ORG	-	stephen
 48	and	I-ORG	-	stephen
@@ -14407,8 +14407,8 @@
 60	now	O	-	-
 61	known	O	-	-
 62	as	O	-	-
-63	River	B-ORG	-	stephen
-64	Garden	I-ORG	-	stephen
+63	River	B-LOC	-	stephen
+64	Garden	I-LOC	-	stephen
 65	.	O	-	-
 
 # sent_id = newsgroup-groups.google.com_KatrinaAlliance_5aa2d7f53b76354f_ENG_20051125_134100-0003
@@ -14731,7 +14731,7 @@
 1	Email	O	-	-
 2	:	O	-	-
 3	"	O	-	-
-4	TJO	O	-	stephen
+4	TJO	B-PER	-	stephen
 5	"	O	-	-
 6	<	O	-	-
 7	ded69...@hotmail.com	O	-	-
@@ -14864,7 +14864,7 @@
 4	're	O	-	-
 5	all	O	-	-
 6	from	O	-	-
-7	4gamer	B-ORG	-	-
+7	4gamer	O	-	-
 8	.	O	-	-
 
 # sent_id = newsgroup-groups.google.com_RagnarokOnlineII_5730bc7888fcee99_ENG_20051122_035600-0016
@@ -14939,7 +14939,7 @@
 14	to	O	-	-
 15	browse	O	-	-
 16	the	O	-	-
-17	japanese	O	-	-
+17	japanese	B-ORG	-	-
 18	website	O	-	-
 19	while	O	-	-
 20	i	O	-	-
@@ -15005,7 +15005,7 @@
 3	irc	B-ORG	-	-
 4	server	O	-	-
 5	:	O	-	-
-6	irc.yankeedot.net	O	-	-
+6	irc.yankeedot.net	B-ORG	-	-
 7	and	O	-	-
 8	join	O	-	-
 9	#	O	-	-
@@ -15625,7 +15625,7 @@
 
 # sent_id = newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0017
 # text = Runar
-1	Runar	B-ORG	-	stephen
+1	Runar	B-PER	-	stephen
 
 # newdoc id = newsgroup-groups.google.com_alt.animals.cat_04d718686843b577_ENG_20040713_101600
 # sent_id = newsgroup-groups.google.com_alt.animals.cat_04d718686843b577_ENG_20040713_101600-0001
@@ -16300,7 +16300,7 @@
 17	Harry	B-PER	-	stephen
 18	Preuss	I-PER	-	stephen
 19	,	O	-	-
-20	MD	O	-	-
+20	MD	I-PER	-	-
 21	,	O	-	-
 22	a	O	-	-
 23	Professor	O	-	-
@@ -16835,7 +16835,7 @@
 11	but	O	-	-
 12	on	O	-	-
 13	the	O	-	-
-14	Seattlepi.com	B-ORG	-	-
+14	Seattlepi.com	O	-	-
 15	(	O	-	-
 16	see	O	-	-
 17	source	O	-	-
@@ -17601,7 +17601,7 @@
 14	turn	O	-	-
 15	the	O	-	-
 16	Gaza	B-LOC	-	stephen
-17	strip	O	-	stephen
+17	strip	I-LOC	-	stephen
 18	"	O	-	-
 19	into	O	-	-
 20	a	O	-	-
@@ -17773,7 +17773,7 @@
 41	astronauts	O	-	-
 42	to	O	-	-
 43	the	O	-	-
-44	ISS	O	-	stephen
+44	ISS	B-LOC	-	stephen
 45	.	O	-	-
 
 # sent_id = newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0006
@@ -18001,7 +18001,7 @@
 13	civilians	O	-	-
 14	to	O	-	-
 15	the	O	-	-
-16	ISS	O	-	stephen
+16	ISS	B-LOC	-	stephen
 17	(	O	-	-
 18	at	O	-	-
 19	about	O	-	-
@@ -18020,7 +18020,7 @@
 32	surprise	O	-	-
 33	if	O	-	-
 34	corporate	O	-	-
-35	America	O	-	stephen
+35	America	B-LOC	-	stephen
 36	was	O	-	-
 37	able	O	-	-
 38	to	O	-	-
@@ -18291,7 +18291,7 @@
 7	as	O	-	-
 8	strengthening	O	-	-
 9	Hurricane	O	-	-
-10	Rita	B-PER	-	-
+10	Rita	O	-	-
 11	,	O	-	-
 12	now	O	-	-
 13	a	O	-	-
@@ -18368,7 +18368,7 @@
 3	the	O	-	-
 4	Florida	B-LOC	-	stephen
 5	Keys	I-LOC	-	stephen
-6	islands	O	-	-
+6	islands	I-LOC	-	-
 7	on	O	-	-
 8	Tuesday	O	-	-
 9	,	O	-	-
@@ -18419,7 +18419,7 @@
 24	the	O	-	-
 25	Saffir	O	-	-
 26	-	O	-	-
-27	Simpson	B-PER	-	-
+27	Simpson	O	-	-
 28	scale	O	-	-
 29	.	O	-	-
 
@@ -18502,7 +18502,7 @@
 9	243,000	O	-	-
 10	bpd	O	-	-
 11	Texas	B-LOC	-	stephen
-12	City	I-ORG	-	stephen
+12	City	I-LOC	-	stephen
 13	refinery	O	-	-
 14	and	O	-	-
 15	its	O	-	-
@@ -18576,7 +18576,7 @@
 # text = Email: BBC Breaking News Alert <dailyem...@ebs.bbc.co.uk>
 1	Email	O	-	-
 2	:	O	-	-
-3	BBC	B-ORG	-	stephen
+3	BBC	O	-	stephen
 4	Breaking	O	-	-
 5	News	O	-	-
 6	Alert	O	-	-
@@ -18639,7 +18639,7 @@
 2	have	O	-	-
 3	received	O	-	-
 4	this	O	-	-
-5	BBC	B-ORG	-	stephen
+5	BBC	O	-	stephen
 6	Breaking	O	-	-
 7	News	O	-	-
 8	Alert	O	-	-
@@ -19293,11 +19293,11 @@
 10	right	O	-	-
 11	,	O	-	-
 12	contact	O	-	-
-13	Law	O	-	stephen
-14	Offices	O	-	stephen
-15	of	O	-	stephen
-16	Armando	B-PER	-	stephen
-17	Villega	I-LOC	-	stephen
+13	Law	B-ORG	-	stephen
+14	Offices	I-ORG	-	stephen
+15	of	I-ORG	-	stephen
+16	Armando	B-ORG	-	stephen
+17	Villega	I-PER	-	stephen
 
 # newdoc id = reviews-035932
 # sent_id = reviews-035932-0001
@@ -19823,7 +19823,7 @@
 7	,	O	-	-
 8	and	O	-	-
 9	when	O	-	-
-10	Alan	B-ORG	-	stephen
+10	Alan	B-PER	-	stephen
 11	's	O	-	stephen
 12	refused	O	-	-
 13	to	O	-	-
@@ -19903,7 +19903,7 @@
 1	Best	O	-	-
 2	Pizzas	O	-	-
 3	and	O	-	-
-4	Calzones	O	-	-
+4	Calzones	B-ORG	-	-
 5	in	O	-	-
 6	the	O	-	-
 7	City	O	-	-
@@ -20351,7 +20351,7 @@
 6	,	O	-	-
 7	go	O	-	-
 8	to	O	-	-
-9	famoso	O	-	stephen
+9	famoso	B-LOC	-	stephen
 10	.	O	-	-
 
 # sent_id = reviews-077213-0006
@@ -20577,8 +20577,8 @@
 6	Blue	B-ORG	-	stephen
 7	Water	I-ORG	-	stephen
 8	Bridge	I-ORG	-	stephen
-9	Duty	I-ORG	-	stephen
-10	Free	I-ORG	-	stephen
+9	Duty	O	-	stephen
+10	Free	O	-	stephen
 11	is	O	-	-
 12	located	O	-	-
 13	.	O	-	-
@@ -21926,7 +21926,7 @@
 5	to	O	-	-
 6	have	O	-	-
 7	used	O	-	-
-8	Marlon	B-ORG	-	stephen
+8	Marlon	B-PER	-	stephen
 9	's	O	-	-
 10	photography	O	-	-
 11	services	O	-	-
@@ -21985,7 +21985,7 @@
 8	i	O	-	-
 9	get	O	-	-
 10	at	O	-	-
-11	Luxe	B-ORG	-	stephen
+11	Luxe	B-LOC	-	stephen
 12	.	O	-	-
 
 # sent_id = reviews-162992-0003
@@ -22007,7 +22007,7 @@
 # sent_id = reviews-163703-0001
 # text = Cheap Hotel Rome - Thanks for all your help!
 1	Cheap	O	-	stephen
-2	Hotel	O	-	stephen
+2	Hotel	I-LOC	-	stephen
 3	Rome	B-LOC	-	stephen
 4	-	O	-	-
 5	Thanks	O	-	-
@@ -22019,8 +22019,8 @@
 
 # sent_id = reviews-163703-0002
 # text = Cheap Hotel Rome - thanks for finding us a hotel at the last minute.
-1	Cheap	B-LOC	-	stephen
-2	Hotel	O	-	stephen
+1	Cheap	O	-	stephen
+2	Hotel	I-LOC	-	stephen
 3	Rome	B-LOC	-	stephen
 4	-	O	-	-
 5	thanks	O	-	-
@@ -22576,7 +22576,7 @@
 # newdoc id = reviews-202709
 # sent_id = reviews-202709-0001
 # text = Elmira, you r the best!
-1	Elmira	B-LOC	-	stephen
+1	Elmira	B-ORG	-	stephen
 2	,	O	-	-
 3	you	O	-	-
 4	r	O	-	-
@@ -23441,7 +23441,7 @@
 7	"	O	-	-
 8	at	O	-	-
 9	Cinema	O	-	stephen
-10	21	O	-	stephen
+10	21	I-LOC	-	stephen
 11	multiple	O	-	-
 12	times	O	-	-
 13	!	O	-	-
@@ -24034,7 +24034,7 @@
 7	not	O	-	-
 8	for	O	-	-
 9	Gurgaon	B-LOC	-	stephen
-10	Location	O	-	-
+10	Location	I-LOC	-	-
 11	.	O	-	-
 
 # sent_id = reviews-288894-0003
@@ -24088,8 +24088,8 @@
 6	spin	O	-	-
 7	in	O	-	-
 8	the	O	-	-
-9	cn	O	-	-
-10	tower	O	-	-
+9	cn	B-LOC	-	-
+10	tower	I-LOC	-	-
 11	with	O	-	-
 12	a	O	-	-
 13	beautiful	O	-	-
@@ -24166,7 +24166,7 @@
 2	's	O	-	-
 3	now	O	-	-
 4	called	O	-	-
-5	Sushi	B-ORG	-	-
+5	Sushi	O	-	-
 6	Lover	O	-	-
 7	.	O	-	-
 
@@ -25838,8 +25838,8 @@
 6	Restaurant	O	-	-
 7	in	O	-	-
 8	the	O	-	-
-9	West	O	-	stephen
-10	Valley	O	-	stephen
+9	West	B-LOC	-	stephen
+10	Valley	I-LOC	-	stephen
 11	,	O	-	-
 12	I	O	-	-
 13	have	O	-	-
@@ -26003,7 +26003,7 @@
 
 # sent_id = weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0004
 # text = TEHRAN (AFP) -
-1	TEHRAN	O	-	stephen
+1	TEHRAN	B-LOC	-	stephen
 2	(	O	-	-
 3	AFP	B-ORG	-	stephen
 4	)	O	-	-
@@ -26068,7 +26068,7 @@
 24	's	O	-	-
 25	"	O	-	-
 26	Iran	B-LOC	-	stephen
-27	Cartoon	O	-	-
+27	Cartoon	I-ORG	-	-
 28	"	O	-	-
 29	association	O	-	-
 30	and	O	-	-
@@ -26164,9 +26164,9 @@
 13	Tehran	B-LOC	-	stephen
 14	's	O	-	-
 15	Palestine	B-LOC	-	stephen
-16	Contemporary	I-ORG	-	stephen
-17	Art	I-ORG	-	stephen
-18	Museum	I-ORG	-	stephen
+16	Contemporary	I-LOC	-	stephen
+17	Art	I-LOC	-	stephen
+18	Museum	I-LOC	-	stephen
 19	.	O	-	-
 
 # sent_id = weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0010
@@ -26992,7 +26992,7 @@
 3	people	O	-	-
 4	wonder	O	-	-
 5	if	O	-	-
-6	Google	B-ORG	-	stephen
+6	Google	O	-	stephen
 7	can	O	-	-
 8	even	O	-	-
 9	survive	O	-	-
@@ -27172,7 +27172,7 @@
 21	Gmail	O	-	-
 22	,	O	-	-
 23	and	O	-	-
-24	Google	B-ORG	-	stephen
+24	Google	O	-	stephen
 25	is	O	-	-
 26	n't	O	-	-
 27	even	O	-	-
@@ -27460,10 +27460,10 @@
 16	the	O	-	stephen
 17	Superior	B-ORG	-	stephen
 18	Court	I-ORG	-	stephen
-19	of	O	-	stephen
-20	the	O	-	stephen
-21	District	B-LOC	-	stephen
-22	of	I-LOC	-	stephen
+19	of	I-ORG	-	stephen
+20	the	I-ORG	-	stephen
+21	District	I-LOC	-	stephen
+22	of	I-ORG	-	stephen
 23	Columbia	I-LOC	-	stephen
 24	,	O	-	-
 25	replacing	O	-	-
@@ -27534,8 +27534,8 @@
 20	Froomkin	I-PER	-	stephen
 21	's	O	-	-
 22	"	O	-	-
-23	White	O	-	stephen
-24	House	O	-	stephen
+23	White	B-ORG	-	stephen
+24	House	I-ORG	-	stephen
 25	Briefing	O	-	-
 26	"	O	-	-
 27	column	O	-	-
@@ -27768,7 +27768,7 @@
 10	wall	O	-	-
 11	in	O	-	-
 12	the	O	-	-
-13	Oval	O	-	stephen
+13	Oval	B-LOC	-	stephen
 14	Office	I-LOC	-	stephen
 15	that	O	-	-
 16	shows	O	-	-
@@ -28284,8 +28284,8 @@
 24	reached	O	-	-
 25	through	O	-	-
 26	the	O	-	-
-27	European	O	-	-
-28	Union	O	-	-
+27	European	B-ORG	-	-
+28	Union	I-ORG	-	-
 29	that	O	-	-
 30	meets	O	-	-
 31	with	O	-	-
@@ -28737,8 +28737,8 @@
 3	hope	O	-	-
 4	that	O	-	-
 5	the	O	-	-
-6	US	B-LOC	-	stephen
-7	army	O	-	-
+6	US	B-ORG	-	stephen
+7	army	I-ORG	-	-
 8	got	O	-	-
 9	an	O	-	-
 10	enormous	O	-	-
@@ -28976,8 +28976,8 @@
 # text = The interim Governing Council issued a communique saying, "It is a proof of the emptiness of the Israeli authority and a destruction of the peace endeavors in the region . . .
 1	The	O	-	-
 2	interim	O	-	-
-3	Governing	O	-	stephen
-4	Council	O	-	stephen
+3	Governing	B-ORG	-	stephen
+4	Council	I-ORG	-	stephen
 5	issued	O	-	-
 6	a	O	-	-
 7	communique	O	-	-
@@ -29113,7 +29113,7 @@
 # sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0001
 # text = The Coalition decision to provoke a fight with Muqtada al-Sadr 's movement only three months before the Coalition Provisional Authority goes out of business has to be seen as a form of gross incompetence in governance.
 1	The	O	-	-
-2	Coalition	O	-	stephen
+2	Coalition	B-ORG	-	stephen
 3	decision	O	-	-
 4	to	O	-	-
 5	provoke	O	-	-
@@ -29312,7 +29312,7 @@
 5	Feith	B-PER	-	stephen
 6	staffed	O	-	-
 7	the	O	-	-
-8	CPA	O	-	stephen
+8	CPA	B-ORG	-	stephen
 9	with	O	-	-
 10	Neoconservatives	O	-	-
 11	,	O	-	-
@@ -29436,13 +29436,13 @@
 
 # sent_id = weblog-juancole.com_juancole_20040404101100_ENG_20040404_101100-0012
 # text = The Washington Monthly 's Who 's Who of Neocons in Iraq helps explain the extreme incompetence and possibly double-dealing of many in the CPA.
-1	The	B-ORG	-	-
+1	The	O	-	-
 2	Washington	B-ORG	-	stephen
 3	Monthly	I-ORG	-	stephen
 4	's	O	-	-
 5	Who	O	-	-
-6	's	I-ORG	-	-
-7	Who	I-ORG	-	-
+6	's	O	-	-
+7	Who	O	-	-
 8	of	O	-	-
 9	Neocons	O	-	-
 10	in	O	-	-
@@ -29787,7 +29787,7 @@
 32	a	O	-	-
 33	reference	O	-	-
 34	to	O	-	-
-35	Nasrallah	B-PER	-	stephen
+35	Nasrallah	B-ORG	-	stephen
 36	,	O	-	-
 37	the	O	-	-
 38	leader	O	-	-
@@ -29962,7 +29962,7 @@
 17	doing	O	-	-
 18	what	O	-	-
 19	the	O	-	-
-20	CPA	O	-	stephen
+20	CPA	B-ORG	-	stephen
 21	has	O	-	-
 22	been	O	-	-
 23	doing	O	-	-
@@ -30006,7 +30006,7 @@
 # sent_id = weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0001
 # text = US Marines moved into most of Fallujah on Wednesday, though they were still meeting pockets of resistance.
 1	US	B-ORG	-	stephen
-2	Marines	O	-	stephen
+2	Marines	I-ORG	-	stephen
 3	moved	O	-	-
 4	into	O	-	-
 5	most	O	-	-
@@ -30103,7 +30103,7 @@
 17	,	O	-	-
 18	according	O	-	-
 19	to	O	-	-
-20	az	B-ORG	-	stephen
+20	az	O	-	stephen
 21	-	I-ORG	-	stephen
 22	Zaman	I-ORG	-	stephen
 23	.	O	-	-
@@ -30174,7 +30174,7 @@
 23	them	O	-	-
 24	if	O	-	-
 25	the	O	-	-
-26	Fallujah	B-LOC	-	stephen
+26	Fallujah	O	-	stephen
 27	compaign	O	-	-
 28	is	O	-	-
 29	not	O	-	-
@@ -30187,7 +30187,7 @@
 2	Iraqi	O	-	-
 3	society	O	-	-
 4	,	O	-	-
-5	PM	B-PER	-	-
+5	PM	O	-	-
 6	Allawi	B-PER	-	stephen
 7	is	O	-	-
 8	responsible	O	-	-
@@ -30220,8 +30220,8 @@
 # sent_id = weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0009
 # text = The US Marines took most of Fallujah Wednesday, but still face pockets of resistance.
 1	The	O	-	-
-2	US	B-LOC	-	stephen
-3	Marines	O	-	stephen
+2	US	B-ORG	-	stephen
+3	Marines	I-ORG	-	stephen
 4	took	O	-	-
 5	most	O	-	-
 6	of	O	-	-
@@ -30441,7 +30441,7 @@
 15	has	O	-	-
 16	appeared	O	-	-
 17	at	O	-	-
-18	Newsday	B-ORG	-	stephen
+18	Newsday	O	-	stephen
 19	.	O	-	-
 
 # sent_id = weblog-juancole.com_juancole_20041120060600_ENG_20041120_060600-0002
@@ -30670,7 +30670,7 @@
 4	random	O	-	-
 5	speculation	O	-	-
 6	about	O	-	-
-7	Google	B-ORG	-	stephen
+7	Google	O	-	stephen
 8	developiong	O	-	-
 9	a	O	-	-
 10	new	O	-	-
@@ -30688,7 +30688,7 @@
 2	is	O	-	-
 3	true	O	-	-
 4	that	O	-	-
-5	Google	B-ORG	-	stephen
+5	Google	O	-	stephen
 6	has	O	-	-
 7	been	O	-	-
 8	in	O	-	-
@@ -30705,12 +30705,12 @@
 5	,	O	-	-
 6	Zipdash	B-ORG	-	stephen
 7	,	O	-	-
-8	Applied	B-ORG	-	stephen
-9	Semantics	I-ORG	-	stephen
+8	Applied	O	-	stephen
+9	Semantics	O	-	stephen
 10	,	O	-	-
 11	Picasa	B-ORG	-	stephen
 12	,	O	-	-
-13	Blogger	B-ORG	-	stephen
+13	Blogger	O	-	stephen
 14	,	O	-	-
 15	and	O	-	-
 16	satellite	O	-	-
@@ -30743,7 +30743,7 @@
 15	strongly	O	-	-
 16	indicate	O	-	-
 17	that	O	-	-
-18	Google	B-ORG	-	stephen
+18	Google	O	-	stephen
 19	is	O	-	-
 20	damn	O	-	-
 21	serious	O	-	-
@@ -30758,7 +30758,7 @@
 30	browser	O	-	-
 31	technology	O	-	-
 32	in	O	-	-
-33	Firefox	B-ORG	-	stephen
+33	Firefox	O	-	stephen
 34	.	O	-	-
 
 # sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0005
@@ -30771,7 +30771,7 @@
 6	engineer	O	-	-
 7	for	O	-	-
 8	Mozilla	B-ORG	-	stephen
-9	Firefox	B-ORG	-	stephen
+9	Firefox	I-ORG	-	stephen
 10	.	O	-	-
 
 # sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0006
@@ -30798,8 +30798,8 @@
 11	income	O	-	-
 12	changed	O	-	-
 13	from	O	-	-
-14	The	B-ORG	-	stephen
-15	Mozilla	I-ORG	-	stephen
+14	The	O	-	stephen
+15	Mozilla	B-ORG	-	stephen
 16	Foundation	I-ORG	-	stephen
 17	to	O	-	-
 18	Google	B-ORG	-	stephen
@@ -30870,7 +30870,7 @@
 11	Firefox	B-ORG	-	stephen
 12	,	O	-	-
 13	the	O	-	-
-14	Mozilla	O	-	stephen
+14	Mozilla	B-ORG	-	stephen
 15	platform	O	-	-
 16	and	O	-	-
 17	web	O	-	-
@@ -30975,7 +30975,7 @@
 17	I	O	-	-
 18	have	O	-	-
 19	joined	O	-	-
-20	Google	B-ORG	-	stephen
+20	Google	O	-	stephen
 21	as	O	-	-
 22	well	O	-	-
 23	.	O	-	-
@@ -31004,7 +31004,7 @@
 # text = Posted by darin
 1	Posted	O	-	-
 2	by	O	-	-
-3	darin	O	-	stephen
+3	darin	B-PER	-	stephen
 
 # sent_id = weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0019
 # text = Ben made another announcement on March 28, 2005:
@@ -31050,7 +31050,7 @@
 11	the	O	-	-
 12	success	O	-	-
 13	of	O	-	-
-14	Mozilla	O	-	stephen
+14	Mozilla	B-ORG	-	stephen
 15	software	O	-	-
 16	over	O	-	-
 17	the	O	-	-
@@ -31131,7 +31131,7 @@
 21	that	O	-	-
 22	formalizes	O	-	-
 23	the	O	-	-
-24	Google	B-ORG	-	stephen
+24	Google	O	-	stephen
 25	-	O	-	-
 26	Mozilla	O	-	stephen
 27	/	O	-	-
@@ -31186,9 +31186,9 @@
 1	In	O	-	-
 2	this	O	-	-
 3	movie	O	-	-
-4	Google	B-ORG	-	stephen
+4	Google	O	-	stephen
 5	and	O	-	-
-6	Amazon	B-ORG	-	stephen
+6	Amazon	O	-	stephen
 7	(	O	-	-
 8	GOOGLEZON	B-ORG	-	-
 9	)	O	-	-

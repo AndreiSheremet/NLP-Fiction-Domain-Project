@@ -7,7 +7,7 @@ with open(input_file, newline='', encoding="cp1252") as csvfile:
 
     current_sent_id=None
 
-    with open(output_file,"w", encoding="cp1252") as out:
+    with open(output_file,"w", encoding="utf-8") as out:
         token_index = 1
         for row in reader:
             if len(row) < 4:

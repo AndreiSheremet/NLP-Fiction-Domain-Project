@@ -1,4 +1,4 @@
-1	Column2	Column3
+
 
 1	"	O
 2	Wingardium	B-SPELL
@@ -1949,7 +1949,7 @@
 19	of	I-ARTIFACT
 20	Galadriel	B-PER
 21	in	O
-22	LÛrien	B-LOC
+22	L√≥rien	B-LOC
 23	:	O
 24	Frodo	B-PER
 25	with	O
@@ -2240,7 +2240,7 @@
 31	flat	O
 32	on	O
 33	Bilbo	B-PER
-34	í	O
+34	‚Äô	O
 35	s	O
 36	mat	O
 37	with	O
@@ -2299,7 +2299,7 @@
 41	they	O
 42	must	O
 43	be	O
-44	D˙nedain	B-CREATURE
+44	D√∫nedain	B-CREATURE
 45	of	O
 46	the	O
 47	South	O
@@ -2632,7 +2632,7 @@
 35	.	O
 
 1	The	O
-2	palantÌri	B-ARTIFACT
+2	palant√≠ri	B-ARTIFACT
 3	came	O
 4	from	O
 5	beyond	O
@@ -2667,7 +2667,7 @@
 9	than	O
 10	two	O
 11	days	O
-12	í	O
+12	‚Äô	O
 13	march	O
 14	off	O
 15	,	O
@@ -2681,7 +2681,7 @@
 23	dwarves	B-CREATURE
 24	with	O
 25	him	O
-26	ó	O
+26	‚Äî	O
 27	a	O
 28	good	O
 29	many	O
@@ -2824,7 +2824,7 @@
 28	luck	O
 29	of	O
 30	widows	O
-31	í	O
+31	‚Äô	O
 32	sons	O
 33	?	O
 
@@ -2923,7 +2923,7 @@
 7	were	O
 8	men	O
 9	of	O
-10	N˙menor	B-LOC
+10	N√∫menor	B-LOC
 11	who	O
 12	had	O
 13	fallen	O
@@ -3169,7 +3169,7 @@
 11	the	O
 12	Mountain	B-LOC
 13	then	O
-14	ó	O
+14	‚Äî	O
 15	or	O
 16	I	O
 17	imagine	O
@@ -3178,7 +3178,7 @@
 20	the	O
 21	smoke	O
 22	,	O
-23	î	O
+23	‚Äù	O
 24	said	O
 25	the	O
 26	hobbit	B-CREATURE
@@ -3674,7 +3674,7 @@
 17	.	O
 
 1	The	O
-2	Nazg˚l	B-CREATURE
+2	Nazg√ªl	B-CREATURE
 3	down	O
 4	below	O
 5	are	O
@@ -3684,7 +3684,7 @@
 9	account	O
 10	;	O
 11	and	O
-12	Lugb˚rz	B-LOC
+12	Lugb√ªrz	B-LOC
 13	is	O
 14	too	O
 15	.	O
@@ -5490,7 +5490,7 @@
 6	the	O
 7	light	B-SPELL
 8	of	O
-9	E‰rendil	B-PER
+9	E√§rendil	B-PER
 10	star	O
 11	,	O
 12	set	O
@@ -6207,7 +6207,7 @@
 2	drew	O
 3	the	O
 4	sword	B-ARTIFACT
-5	And˙ril	B-ARTIFACT
+5	And√∫ril	B-ARTIFACT
 6	,	O
 7	Flame	B-ARTIFACT
 8	of	I-ARTIFACT
